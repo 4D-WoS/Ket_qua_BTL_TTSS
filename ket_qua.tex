@@ -1,0 +1,167 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Bieu dien ket qua TTSS}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Metric} & \textbf{Value} \\ \hline
+Result          & 216.904203 \\ \hline
+Time (s)        & 0.010100 \\ \hline
+\end{tabular}
+\caption{Sequential Execution Results ($N= 10^7$)}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Threads} & \textbf{Time (s)} & \textbf{Speedup} & \textbf{Efficiency} \\ \hline
+2  & 0.006000 & 1.683238 & 0.841619 \\ \hline
+3  & 0.006000 & 1.683238 & 0.561079 \\ \hline
+4  & 0.006000 & 1.683238 & 0.420810 \\ \hline
+5  & 0.007000 & 1.442792 & 0.288558 \\ \hline
+6  & 0.006000 & 1.683238 & 0.280540 \\ \hline
+8  & 0.005000 & 2.019950 & 0.252494 \\ \hline
+10 & 0.007000 & 1.442743 & 0.144274 \\ \hline
+12 & 0.006000 & 1.683238 & 0.140270 \\ \hline
+14 & 0.007000 & 1.442882 & 0.144288 \\ \hline
+16 & 0.005000 & 2.019950 & 0.126247 \\ \hline
+\end{tabular}
+\caption{Parallel Execution Results using OpenMP($N= 10^7$)}
+\end{table}
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Metric} & \textbf{Value} \\ \hline
+Result          & 1745.905416 \\ \hline
+Time (s)        & 0.018374 \\ \hline
+\end{tabular}
+\caption{Sequential Execution Results ($N=2 \times 10^7$)}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Threads} & \textbf{Time (s)} & \textbf{Speedup} & \textbf{Efficiency} \\ \hline
+2  & 0.011000 & 1.670358 & 0.835179 \\ \hline
+3  & 0.011000 & 1.670322 & 0.556774 \\ \hline
+4  & 0.013000 & 1.413368 & 0.353342 \\ \hline
+5  & 0.013000 & 1.413368 & 0.282674 \\ \hline
+6  & 0.012000 & 1.531139 & 0.255190 \\ \hline
+8  & 0.010000 & 1.837382 & 0.229673 \\ \hline
+10 & 0.010000 & 1.837382 & 0.183738 \\ \hline
+12 & 0.009000 & 2.041519 & 0.170127 \\ \hline
+14 & 0.009000 & 2.041573 & 0.145827 \\ \hline
+16 & 0.010000 & 1.837382 & 0.114836 \\ \hline
+\end{tabular}
+\caption{Parallel Execution Results using OpenMP ($N=2 \times 10^7$)}
+
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Metric} & \textbf{Value} \\ \hline
+Result          & 1955.521478 \\ \hline
+Time (s)        & 0.050895 \\ \hline
+\end{tabular}
+\caption{Sequential Execution Results ($N=5 \times 10^7$)}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Threads} & \textbf{Time (s)} & \textbf{Speedup} & \textbf{Efficiency} \\ \hline
+2  & 0.027000 & 1.885018 & 0.942509 \\ \hline
+3  & 0.027000 & 1.885018 & 0.628339 \\ \hline
+4  & 0.025000 & 2.035808 & 0.508952 \\ \hline
+5  & 0.023000 & 2.212843 & 0.442569 \\ \hline
+6  & 0.023000 & 2.212843 & 0.368807 \\ \hline
+8  & 0.025000 & 2.035808 & 0.254476 \\ \hline
+10 & 0.024000 & 2.120648 & 0.212065 \\ \hline
+12 & 0.022000 & 2.313445 & 0.192787 \\ \hline
+14 & 0.024000 & 2.120648 & 0.151475 \\ \hline
+16 & 0.024000 & 2.120648 & 0.132540 \\ \hline
+\end{tabular}
+\caption{Parallel Execution Results using OpenMP ($N=5 \times 10^7$)}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Metric} & \textbf{Value} \\ \hline
+Result          & 4393.451842 \\ \hline
+Time (s)        & 0.096310 \\ \hline
+\end{tabular}
+\caption{Sequential Execution Results ($N=10^8$)}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Threads} & \textbf{Time (s)} & \textbf{Speedup} & \textbf{Efficiency} \\ \hline
+2  & 0.056000 & 1.719829 & 0.859914 \\ \hline
+3  & 0.050000 & 1.926210 & 0.642070 \\ \hline
+4  & 0.047000 & 2.049160 & 0.512290 \\ \hline
+5  & 0.043000 & 2.239778 & 0.447956 \\ \hline
+6  & 0.043000 & 2.239778 & 0.373296 \\ \hline
+8  & 0.042000 & 2.293102 & 0.286638 \\ \hline
+10 & 0.043000 & 2.239778 & 0.223978 \\ \hline
+12 & 0.044000 & 2.188865 & 0.182405 \\ \hline
+14 & 0.045000 & 2.140239 & 0.152874 \\ \hline
+16 & 0.045000 & 2.140227 & 0.133764 \\ \hline
+\end{tabular}
+\caption{Parallel Execution Results using OpenMP ($N=10^8$)}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Metric} & \textbf{Value} \\ \hline
+Result          & -2140.966013 \\ \hline
+Time (s)        & 0.201369 \\ \hline
+\end{tabular}
+\caption{Sequential Execution Results ($N=2 \times 10^8$)}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Threads} & \textbf{Time (s)} & \textbf{Speedup} & \textbf{Efficiency} \\ \hline
+2  & 0.126000 & 1.598171 & 0.799085 \\ \hline
+3  & 0.100000 & 2.013696 & 0.671232 \\ \hline
+4  & 0.093000 & 2.165264 & 0.541316 \\ \hline
+5  & 0.086000 & 2.341499 & 0.468300 \\ \hline
+6  & 0.083000 & 2.426139 & 0.404356 \\ \hline
+8  & 0.085000 & 2.369051 & 0.296131 \\ \hline
+10 & 0.091000 & 2.212854 & 0.221285 \\ \hline
+12 & 0.090000 & 2.237440 & 0.186453 \\ \hline
+14 & 0.087000 & 2.314594 & 0.165328 \\ \hline
+16 & 0.090000 & 2.237440 & 0.139840 \\ \hline
+\end{tabular}
+\caption{Parallel Execution Results using OpenMP ($N=2 \times 10^8$)}
+\end{table}
+
+
+\end{document}
